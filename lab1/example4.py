@@ -4,11 +4,11 @@ if gpa < 2.0 and nol < 47 :
 
   print("Not enough number of lectures and GPA!")
 
-if gpa >= 2.0 and nol < 47 :
+elif gpa >= 2.0 and nol < 47 :
 
   print("Not enough number of lectures!")
 
-if gpa < 2.0 and nol >= 47 :
+elif gpa < 2.0 and nol >= 47 :
 
   print("Not enogh GPA!")
 
