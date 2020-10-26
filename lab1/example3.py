@@ -1,11 +1,16 @@
 x = int(input("enter a number:" ))
+y = int(input("enter one more number:"))
+z = int(input("enter the last number:"))
 
-if x > 0:
+if x<y and x<z :
   print(x)
 
-else :
-  print(-x)
+elif y<x and y<z :
 
+  print(y)
+
+else:
+  print(z)
 
 
 
