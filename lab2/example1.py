@@ -8,7 +8,7 @@ while True:
     print ("welcome")
     break
   elif (password == "help") :
-    print("a")
+    print(def_password[0])
   else:
     print("Wrong")
 
