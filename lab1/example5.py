@@ -1,12 +1,6 @@
-age = int(input("How old are you ?"))
+side1 = float(input("Enter a one of the side:"))
+side2 = float(input("Enter the other side:"))
 
-if age<6 or age>60 :
-  print("FREE!")
+hypotenuse = (side1**2 + side2**2)**0.5
 
-elif age <18 :
-  
-  print("1.5 Tl")
-
-else :
-
-  print("3 Tl")
+print("Hypotenuse is",hypotenuse)

@@ -1,16 +1,9 @@
-x = int(input("enter a number:" ))
-y = int(input("enter one more number:"))
-z = int(input("enter the last number:"))
+# 2x^2 + 6x -20 find the roots.
 
-if x<y and x<z :
-  print(x)
+a = 2
+b = 6
+c = -20
+root1 = ((-1*b) + (((b**2) - (4*a*c))**0.5)) / (2*a)
+root2 = ((-1*b) - (((b**2) - (4*a*c))**0.5)) / (2*a) 
 
-elif y<x and y<z :
-
-  print(y)
-
-else:
-  print(z)
-
-
-
+print("Roots are", root1, root2)

@@ -1,17 +1,4 @@
-gpa = int(input("Enter your GPA:"))
-nol = int(input("Enter the number of lectures:"))
-if gpa < 2.0 and nol < 47 :
+celcius = float(input("Enter a temperature in celcius: "))
+fahrenheit = celcius * 1.8 + 32
 
-  print("Not enough number of lectures and GPA!")
-
-elif gpa >= 2.0 and nol < 47 :
-
-  print("Not enough number of lectures!")
-
-elif gpa < 2.0 and nol >= 47 :
-
-  print("Not enogh GPA!")
-
-else :
-
-  print("Graduated!")
+print(celcius,"Celcius degree equals to", fahrenheit, "Fahrenheit")
