@@ -9,7 +9,7 @@ last_mail = parts_of_mail[0]+'@'+parts_of_mail[1]
 
 
 if last_mail==mail:
-    print('true')
+    print("TRUE")
 else:
-    print('false')
+    print("FALSE")
 
