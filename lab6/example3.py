@@ -22,4 +22,9 @@ for i in studentsScores:
 
 print("Average of students points", averages)
 
+clevers =[]
+for z in range(1,len(averages)+1):
+  if averages[z-1][0] >= 90:
+    clevers.append(["Student",str(z),averages[z-1]])
+print(clevers)
 
