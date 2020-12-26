@@ -1,11 +1,12 @@
-def is_prime():
-    a = int(input("Enter an integer:"))
-    b = int(input("Enter an integer:"))
-    for dividing in range(a+1,b):
-        prime = True
-        for divisor in range(2,a):
-            if dividing%divisor==0:
-                prime = False
-        if prime :
-            print(dividing)
-is_prime()
+def is_prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+def print_primes_between(n,m):
+    for x in range(n,m+1):
+        if is_prime(x):
+            print(x)
+num1=int(input("Enter a smaller integer"))
+num2=int(input("Enter a greater integer"))
+print_primes_between(num1,num2)
